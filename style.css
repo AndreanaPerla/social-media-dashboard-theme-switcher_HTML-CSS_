@@ -84,8 +84,7 @@ input:checked + .slider:before {
 }
 /* ...end toggle btn */
 
-/* desktop */
-@media only screen and (max-width: 1440px) {
+
   main {
     width: 1110px;
     margin: 0 auto;
@@ -329,10 +328,9 @@ input:checked + .slider:before {
   .yt-views .bot-perc p {
     color: var(--brightred);
   }
-}
 
 /* mobile */
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 800px) {
   main {
     width: 325px;
     margin: 0 auto;
